@@ -165,8 +165,86 @@ Implemented protections:
 ```
 ---
 ## 6. Example Input (Resume Image)
-![Pipeline Diagram](input.png)
+<img src="input.png" alt="Resume Parsing Pipeline" width="600" height="600" />
 
+---
 
+## 7. Example Output (Final JSON)
+```
+{
+  "skills": [
+    "Java",
+    "Python",
+    "C",
+    "Data Structures & Algorithms",
+    "Problem-Solving",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "MongoDB",
+    "Regression",
+    "Classification",
+    "XGBoost",
+    "Data Preprocessing",
+    "Model Evaluation",
+    "Gemini API",
+    "JWT Authentication",
+    "WebRTC",
+    "API Design",
+    "Docker (basic)",
+    "Git/GitHub",
+    "Debugging",
+    "Automated Testing",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "Responsive UI"
+  ],
+  "experience": [
+    {
+      "company": "SuPrazo Technologies",
+      "role": "Junior Software Engineer Intern",
+      "duration": "Aug 2025 – Present",
+      "description": "Contributing to AI-driven interview platform development using MERN, secure APIs, WebRTC, and automated evaluation workflows. Creating responsive React dashboards with smart filtering, resume preview, and backend-integrated performance scoring."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Online Gatepass Management System",
+      "description": "Built a secure digital gatepass system enabling role-based access, OTP verification, and automated entry/exit validation using QR scanning.",
+      "techstack": [
+        "MERN",
+        "JWT",
+        "MongoDB",
+        "QR Code APIs"
+      ]
+    },
+    {
+      "name": "Self-Chef AI — Recipe Generator",
+      "description": "Developed an AI-powered recipe generation platform providing personalized recipes, instructions, and YouTube links based on user-input ingredients.",
+      "techstack": [
+        "MERN",
+        "Gemini API",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "AgriPredict — Crop Prediction System",
+      "description": "Created a machine learning model achieving 99% accuracy in predicting optimal crops and built a simple web interface for farmers to view results.",
+      "techstack": [
+        "Python",
+        "Flask",
+        "XGBoost",
+        "scikit-learn"
+      ]
+    }
+  ],
+  "achievements": [
+    "Hackathon Finalist — SuPrathon (National Level) - Developed AI-powered interview analysis tool selected among the Top 20 teams nationally."
+  ]
+}
+```
 
 
