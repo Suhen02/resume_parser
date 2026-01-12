@@ -165,5 +165,8 @@ Implemented protections:
 ```
 ---
 ## 6. Example Input (Resume Image)
+![Pipeline Diagram](input.png)
+
+
 
 
