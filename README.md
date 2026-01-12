@@ -246,5 +246,19 @@ Implemented protections:
   ]
 }
 ```
+## 8. Flask API
+#### Endpoint
+```
+POST /parse-resume
+```
+
+## 10. Technologies Used
+- Python
+- Flask
+- OCR (image → text)
+- Hugging Face Inference API
+- Mistral-7B-Instruct
+- NLP / Regex heuristics
+- JSON schema validation
 
 
