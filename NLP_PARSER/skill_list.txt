@@ -1,0 +1,13 @@
+python
+java
+c++
+machine learning
+deep learning
+nlp
+pytorch
+tensorflow
+docker
+aws
+fastapi
+flask
+sql
