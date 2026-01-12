@@ -42,24 +42,26 @@ This project solves those problems by:
 ---
 
 ## 3. High-Level Architecture
+```
+                            Raw Resume Text
+                                    |
+                                    v
+                            Section Detection
+                                    |
+                                    +-----------------------+
+                                    |                       |
+                                    v                       v
+                            NLP Heuristic Parser     LLM Strict Extractor
+                                    |                       |
+                                    +-----------+-----------+
+                                                |
+                                                v
+                                      Resume Examiner LLM
+                                                |
+                                                v
+                                       Final Parsed Resume JSON
+                                                |
+                                                v
+                                            Flask API
 
-Raw Resume Text
-|
-v
-Section Detection
-|
-+-----------------------+
-| |
-v v
-NLP Heuristic Parser LLM Strict Extractor
-| |
-+-----------+-----------+
-|
-v
-Resume Examiner LLM
-|
-v
-Final Parsed Resume JSON
-|
-v
-
+```
