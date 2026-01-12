@@ -5,8 +5,11 @@ from extractor.extractor import extract_resume_text
 from extractor.utils import clean_text
 from resume_examiner_llm import examine_resume_outputs
 import json
+import os
 
 app=Flask(__name__)
+UPLOAD_FOLDER = "./uploads"
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 
 @app.route('/resume_parser',methods=['POST'])
@@ -17,7 +20,10 @@ def main():
         raise e  
       
     if resume:
-        resume.save(f"./uploads/{resume.filename}")
+        #resume.save(f"./uploads/{resume.filename}")
+        file_path = os.path.join(UPLOAD_FOLDER, resume.filename)
+        resume.save(file_path)
+
     else:
         return "NO files are recived."
     try:
