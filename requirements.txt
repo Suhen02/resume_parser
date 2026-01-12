@@ -1,0 +1,11 @@
+regex
+pydantic
+pdfminer.six
+PyPDF2
+transformers
+torch
+sentencepiece
+python-dotenv
+tqdm
+pillow
+pytesseract
